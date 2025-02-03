@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+.filter-bar {
+  margin-bottom: 20px;
+}
+
+.filter-bar .form-label {
+  margin-right: 10px;
+}
+
+.filter-bar .form-select {
+  width: auto;
+  display: inline-block;
+  padding: 5px;
+}
